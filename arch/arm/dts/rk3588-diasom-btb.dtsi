@@ -369,6 +369,7 @@
 	domain-supply = <&vdd_gpu>;
 };
 
+/*
 &pd_npu {
 	domain-supply = <&vdd_npu>;
 };
@@ -402,7 +403,7 @@
 &rknn_mmu_2 {
 	status = "okay";
 };
-
+*/
 &saradc {
 	vref-supply = <&vcca_1v8>;
 	status = "okay";
